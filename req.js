@@ -4,7 +4,8 @@ const cheerio = require('cheerio');
 const options = {
     url: 'http://y-y.hs.kr/lunch.view?date=20190429',
     headers:{
-        'User-Agent': 'Mozilla/5.0'
+        'User-Agent': 'Mozilla/5.0',
+        'Content-Type': 'text/html; charset=utf-8'
     }
 }
 
